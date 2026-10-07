@@ -1,11 +1,11 @@
 # Korean Phrase Quiz
 
 A simple website for learning useful everyday Korean phrases through multiple-choice quizzes.
-Built with plain HTML, CSS and JavaScript (no frameworks).
+Built with HTML, CSS and JavaScript 
 
 ## Features
 
-- 10 everyday phrases with Hangul and romanization
+- 10 everyday phrases displayed in both Hangul and English
 - Questions and answer options are shuffled every round
 - Instant right/wrong feedback with a short explanation
 - Result view with score and percentage
