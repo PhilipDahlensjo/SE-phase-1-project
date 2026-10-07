@@ -1,0 +1,190 @@
+/* Colors and shared values */
+:root {
+  --background: #f4f6fb;
+  --card: #ffffff;
+  --text: #1f2933;
+  --muted: #6b7280;
+  --primary: #3b5bdb;
+  --primary-hover: #2f4ac0;
+  --border: #d9dee8;
+  --correct: #2f9e44;
+  --correct-light: #e6f6ea;
+  --wrong: #e03131;
+  --wrong-light: #fdeaea;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: var(--background);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  line-height: 1.5;
+}
+
+/* The white card that holds all views */
+.container {
+  width: 100%;
+  max-width: 560px;
+  padding: 32px 24px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+/* Used by JavaScript to show and hide elements */
+.hidden {
+  display: none !important;
+}
+
+/* Main buttons (Start, Next, Try again) */
+.button {
+  margin-top: 16px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--primary);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover:not(:disabled) {
+  background: var(--primary-hover);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.error {
+  color: var(--wrong);
+}
+
+/* Quiz view */
+.progress {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.prompt {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.phrase {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.romanization {
+  margin-top: 4px;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.option {
+  padding: 12px 16px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--text);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.option:hover:not(:disabled) {
+  border-color: var(--primary);
+}
+
+.option:disabled {
+  cursor: default;
+}
+
+.option.correct {
+  border-color: var(--correct);
+  background: var(--correct-light);
+}
+
+.option.wrong {
+  border-color: var(--wrong);
+  background: var(--wrong-light);
+}
+
+/* Feedback shown after answering */
+.feedback {
+  margin-top: 20px;
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  text-align: left;
+}
+
+.feedback.correct {
+  background: var(--correct-light);
+}
+
+.feedback.wrong {
+  background: var(--wrong-light);
+}
+
+.feedback-text {
+  margin: 0;
+  font-weight: 600;
+}
+
+.feedback.correct .feedback-text {
+  color: var(--correct);
+}
+
+.feedback.wrong .feedback-text {
+  color: var(--wrong);
+}
+
+.feedback-note {
+  margin: 4px 0 0;
+}
+
+.feedback-note:empty {
+  display: none;
+}
+
+/* Result view */
+.score {
+  margin: 8px 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+/* Two answer columns on wider screens */
+@media (min-width: 520px) {
+  .options {
+    grid-template-columns: 1fr 1fr;
+  }
+}
