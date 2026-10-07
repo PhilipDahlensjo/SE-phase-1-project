@@ -1,0 +1,85 @@
+{
+  "title": "Everyday Korean Phrases",
+  "questions": [
+    {
+      "id": 1,
+      "phrase": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "options": ["Hello", "Thank you", "Goodbye", "Excuse me"],
+      "answer": "Hello",
+      "note": "A polite greeting you can use at any time of day."
+    },
+    {
+      "id": 2,
+      "phrase": "감사합니다",
+      "romanization": "gamsahamnida",
+      "options": ["Thank you", "I'm sorry", "You're welcome", "Nice to meet you"],
+      "answer": "Thank you",
+      "note": "A polite way to say thank you. 고마워요 (gomawoyo) is a bit more casual."
+    },
+    {
+      "id": 3,
+      "phrase": "죄송합니다",
+      "romanization": "joesonghamnida",
+      "options": ["I'm sorry", "It's okay", "Thank you", "Please help me"],
+      "answer": "I'm sorry",
+      "note": "A formal apology. 미안해요 (mianhaeyo) is less formal."
+    },
+    {
+      "id": 4,
+      "phrase": "괜찮아요",
+      "romanization": "gwaenchanayo",
+      "options": ["It's okay", "I don't know", "How are you?", "That's expensive"],
+      "answer": "It's okay",
+      "note": "Can also mean \"I'm fine\" or \"No, thanks\" when you decline something."
+    },
+    {
+      "id": 5,
+      "phrase": "처음 뵙겠습니다",
+      "romanization": "cheoeum boepgetseumnida",
+      "options": ["Nice to meet you", "See you later", "Welcome", "Long time no see"],
+      "answer": "Nice to meet you",
+      "note": "Used when you meet someone for the first time."
+    },
+    {
+      "id": 6,
+      "phrase": "이거 얼마예요?",
+      "romanization": "igeo eolmayeyo?",
+      "options": ["How much is this?", "What is this?", "Where is this?", "Can I have this?"],
+      "answer": "How much is this?",
+      "note": "Useful when shopping. 이거 (igeo) means \"this\"."
+    },
+    {
+      "id": 7,
+      "phrase": "화장실이 어디예요?",
+      "romanization": "hwajangsiri eodiyeyo?",
+      "options": ["Where is the bathroom?", "Where is the station?", "What time is it?", "Where are you from?"],
+      "answer": "Where is the bathroom?",
+      "note": "어디 (eodi) means \"where\"."
+    },
+    {
+      "id": 8,
+      "phrase": "잘 먹겠습니다",
+      "romanization": "jal meokgetseumnida",
+      "options": ["Thanks for the food", "I'm full", "This is delicious", "I'm hungry"],
+      "answer": "Thanks for the food",
+      "note": "Said before eating. After the meal you say 잘 먹었습니다 (jal meogeotseumnida)."
+    },
+    {
+      "id": 9,
+      "phrase": "안녕히 가세요",
+      "romanization": "annyeonghi gaseyo",
+      "options": ["Goodbye", "Hello", "Good night", "See you tomorrow"],
+      "answer": "Goodbye",
+      "note": "Said to someone who is leaving. If you are the one leaving, say 안녕히 계세요 (annyeonghi gyeseyo)."
+    },
+    {
+      "id": 10,
+      "phrase": "다시 한번 말해 주세요",
+      "romanization": "dasi hanbeon malhae juseyo",
+      "options": ["Please say that again", "Please speak slowly", "I don't understand", "Please write it down"],
+      "answer": "Please say that again",
+      "note": "주세요 (juseyo) turns a sentence into a polite request, like \"please\"."
+    }
+  ]
+}
